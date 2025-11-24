@@ -1,0 +1,60 @@
+| Port | Service                                                                                                                    | Transport Protocol                        |
+|------|----------------------------------------------------------------------------------------------------------------------------|-------------------------------------------|
+| 20   | File Transport Protocol (FTP)                                                                                              | Transport Control Protocol (TCP)          |
+| 21   | FTP control connection                                                                                                     | TCP and Universal Datagram Protocol (UDP) |
+| 22   | SSH (Secure Shell Protocol (SSH) and Secure Copy Protocol (SCP)                                                            | TCP and UDP                               |
+| 23   | Telnet                                                                                                                     | TCP                                       |
+| 25   | (Simple Mail Transfer Protocol (SMTP)                                                                                      | TCP                                       |
+| 49   | Terminal Access Controller Access-Control System + (TACACS+) and Terminal Access Controller Access-Control System (TACACS) | TCP only and TCP and UDP                  |
+| 53   | Domain Name Service (DNS)                                                                                                  | TCP and UDP                               |
+| 67   | (Dynamic Host Configuration Protocol (DHCP)                                                                                | UDP                                       |
+| 68   | DHCP client-side                                                                                                           | UDP                                       |
+| 69   | Trivial File Transport Protocol (TFTP)                                                                                     | UDP                                       |
+| 80   | Hypertext Transport Protocol (HTTP)                                                                                        | TCP                                       |
+| 88   | Kerberos                                                                                                                   | TCP and UDP                               |
+| 110  | Post Office Protocol (POP3)                                                                                                | TCP                                       |
+| 123  | Network Time Protocol (NTP)                                                                                                | UDP                                       |
+| 135  | Remote Procedure Call (RPC)                                                                                                | TCP and UDP                               |
+| 137  | Net Basic Input/Output System (NetBIOS) Name Service                                                                       | TCP and UDP                               |
+| 139  | NetBIOS Session service                                                                                                    | TCP and UDP                               |
+| 143  | Internet message access protocol (IMAP)                                                                                    | TCP and UDP                               |
+| 161  | Simple Network Management Protocol (SNMP) manager listening                                                                                     | UDP                |
+| 162  | SNMP trap                                                                                                                                       | UDP                |
+| 179  | Border Gateway Protocol (BGP)                                                                                                                   | TCP                |
+| 389  | Lightweight Directory Access Protocol (LDAP)                                                                                                    | TCP and UDP        |
+| 443  | Hypertext transfer protocol secure (HTTPS)                                                                                                      | TCP                |
+| 445  | Server Message Block (SMB)                                                                                                                      | TCP                |
+| 500  | Internet Security Association and Key Management Protocol (ISAKMP)/ IKE (Internet Key Exchange (IKE))/IPSEC (Internet Protocol Security (IPSEC) | UDP                |
+| 514  | Syslog                                                                                                                                          | UDP                |
+| 520  | Routing Information Protocol (RIP)                                                                                                              | UDP                |
+| 587  | Simple Mail Transfer Protocol/Secure (SMPTS) or Start Transport Layer Security (TLS)                                                            | TCP                |
+| 636  | Secure LDAP (LDAPS)                                                                                                                             | TCP and UDP        |
+| 860  | Internet Small Computer Systems Interface (iSCSI)                                                                                               | TCP                |
+| 993  | IMAP over Secure Socket Layer (SSL) (IMAPS)                                                                                                     | TCP                |
+| 995  | Secure Post Office Protocol (POP3S)                                                                                                             | TCP                |
+| 989/990  | File Transfer Protocol Secure (FTPS)                                                                                                        | TCP                |
+| 1433 | Microsoft SQL server                                                                                                                            | TCP and UDP        |
+| 1434 | Microsoft SQL monitor                                                                                                                           | TCP and UDP        |
+| 1521 | Oracle DB default listener                                                                                                                      | TCP                |
+| 1645 | Remote Authentication Dial-In User Service (RADIUS) default (legacy port, 1812/1813 should be used) | UDP         |
+| 1646 | Service RADIUS accounting protocol (legacy port, 1812/1813 should be used)                          | UDP         |
+| 1701 | Layer Two Tunnelling Protocol (L2TP)                                                                | UDP         |
+| 1723 | Point-to-Point Tunneling Protocol (PPTP)                                                            | TCP         |
+| 1812 | RADIUS authentication protocol default port                                                         | TCP and UDP |
+| 1813 | RADIUS accounting protocol                                                                          | TCP and UDP |
+| 1900 | Universal Plug and Play (UPnP)                                                                      | UDP         |
+| 3020 | Common Internet File System (CIFS)                                                                  | TCP and UDP |
+| 3306 | MySQL Database                                                                                      | TCP         |
+| 3225 | Fibre Channel over IP (FCIP)                                                                        | TCP and UDP |
+| 3260 | iSCI Target (listening)                                                                             | TCP         |
+| 3389 | Remote Desktop Protocol (RDP)                                                                       | TCP         |
+| 3868 | Diameter                                                                                            | TCP         |
+| 4500 | Nat-t-ike; IPsec Network Address Translation (NAT) Traversal                                        | UDP         |
+| 5004 | Real-Time Streaming Protocol (RTSP)                                                                 | UDP         |
+| 5060 | Session Initiation Protocol (SIP)                                                                   | TCP and UDP |
+| 5061 | Secure SIP over TLS                                                                                 | TCP         |
+| 5432 | PostgreSQL DB                                                                                       | TCP         |
+| 5900  | Virtual Network Computing (VNC) Remote Access Service (RAS) | TCP         |
+| 6514  | Syslog over TLS                                             | TCP         |
+| 8080  | alternative port for HTTP/HTTP Proxy service                | TCP and UDP |
+| 49152 | Start of the dynamic port range                             |             |
